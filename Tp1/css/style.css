@@ -18,6 +18,14 @@ html body section img{
    width:50%;
    margin-left:20%;
 }
+html body #image{
+	width:80%;
+	height: 400px;
+        margin-left:20%;
+        /**background-image: url("../img/logo-iut.jpg") ;
+        background-size:contain;**/
+        background: white url("../img/logo-iut.jpg") no-repeat ;
+}
 @media screen and (min-width: 481px) and (max-width: 767px) {
     p#p1, p#p2, p#p3{
       width:100%;
