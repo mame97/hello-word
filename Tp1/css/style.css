@@ -1,0 +1,51 @@
+p#p1{
+      background:blue;
+    }
+
+ p#p2{
+       background:white;
+    }
+p#p3{
+        background:red;
+    }
+article#nn3 img{
+       width:80%;
+    }
+input{ width:80%; 
+       margin-left:10%;
+}
+html body section img{
+   width:50%;
+   margin-left:20%;
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    p#p1, p#p2, p#p3{
+      width:100%;
+      background:green;
+    }  
+     html body section img{
+      width:80%;
+} 
+ html body section img{
+   width:60%;
+   margin-left:10%;
+}
+  
+}
+@media screen and (max-width: 480px){
+   p#p1, p#p2, p#p3{
+      width:100%;
+      background:orange;
+    }  
+     html body section img{
+      width:100%;
+}
+html body section img{
+   width:100%;
+   margin-left:10%;
+}
+}
+
+
+
+   
