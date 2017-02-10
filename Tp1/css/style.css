@@ -1,3 +1,25 @@
+body{
+    font-size:16px;
+    }
+h1{
+    font-size:8vw;
+    }
+    
+TH{
+    background: pink;
+}
+TABLE{
+    border-color:pink;
+    width:100%;
+     
+}
+#logo {
+    background-image: url("../img/logo-iut.jpg");
+    background-size: 100%;
+    width: 300px;
+    height: 150px;
+    margin:auto;
+}
 p#p1{
       background:blue;
     }
@@ -26,8 +48,16 @@ html body #image{
         background-size:contain;**/
         background: white url("../img/logo-iut.jpg") no-repeat ;
 }
-@media screen and (min-width: 481px) and (max-width: 767px) {
-    p#p1, p#p2, p#p3{
+@media screen and (min-width: 481px) and (max-width: 767px){
+    /* Le code pour les tablettes ici */
+    TD,TH,TR{
+        display: block;
+    }
+    TABLE{
+    border-color:pink;
+    width:100%;
+    }
+     p#p1, p#p2, p#p3{
       width:100%;
       background:green;
     }  
@@ -38,10 +68,17 @@ html body #image{
    width:60%;
    margin-left:10%;
 }
-  
 }
 @media screen and (max-width: 480px){
-   p#p1, p#p2, p#p3{
+    /* Le code pour les mobiles ici */
+      TD,TH,TR{
+        display: block;
+     }
+    TABLE{
+    border-color:pink;
+    width:100%;
+    }
+     p#p1, p#p2, p#p3{
       width:100%;
       background:orange;
     }  
@@ -54,6 +91,3 @@ html body section img{
 }
 }
 
-
-
-   
